@@ -11,3 +11,4 @@
  *= require_self
  *= require_tree .
  */
+ <%= stylesheet_link_tag "http://github.com/rails3book/ticketee/raw/master/app/assets/stylesheets/application.css" %>
