@@ -3,6 +3,7 @@
     "coverage": {
       "/Users/nicoleglasgow/ticketee/app/models/user.rb": [
         1,
+        1,
         null,
         null,
         null,
@@ -211,12 +212,12 @@
         1,
         null,
         1,
-        55,
+        57,
         null,
         null,
         null,
         1,
-        99,
+        101,
         null,
         null,
         null
@@ -232,6 +233,7 @@
         null
       ],
       "/Users/nicoleglasgow/ticketee/app/controllers/tickets_controller.rb": [
+        1,
         1,
         1,
         1,
@@ -283,11 +285,18 @@
         null,
         1,
         1,
-        18,
+        20,
         null,
         1,
         null,
         1,
+        null,
+        null,
+        1,
+        8,
+        2,
+        2,
+        null,
         null,
         null
       ],
@@ -308,6 +317,22 @@
         null,
         null
       ],
+      "/Users/nicoleglasgow/ticketee/app/models/ability.rb": [
+        1,
+        1,
+        null,
+        1,
+        8,
+        14,
+        null,
+        null,
+        6,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
       "/Users/nicoleglasgow/ticketee/app/models/permission.rb": [
         1,
         1,
@@ -317,6 +342,6 @@
         null
       ]
     },
-    "timestamp": 1374797773
+    "timestamp": 1374813479
   }
 }
