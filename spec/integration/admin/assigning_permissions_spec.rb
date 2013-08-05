@@ -18,7 +18,6 @@ feature "Assigning permissions" do
   scenario "Viewing a project" do
     check_permission_box "view", project
     click_button "Update"
-    save_and_open_page
     click_link "Sign out"
 
     sign_in_as!(user)
