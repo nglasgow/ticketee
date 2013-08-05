@@ -7,9 +7,9 @@ feature "Viewing tickets" do
     textmate_2 = Factory(:project, :name => "TextMate 2")
     define_permission!(user, "view", textmate_2)
     ticket = Factory(:ticket,
-                    :project => textmate_2,
-                    :title => "Make it shiny!",
-                    :description => "Gradients! Starbursts! Oh my!")
+                     :project => textmate_2,
+                     :title => "Make it shiny!",
+                     :description => "Gradients! Starbursts! Oh my!")
 
     ticket.update_attribute(:user, user)
 
