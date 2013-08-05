@@ -298,6 +298,7 @@
         null,
         1,
         5,
+        20,
         null,
         null,
         1,
@@ -376,11 +377,12 @@
         1,
         1,
         1,
-        null,
-        1,
         1,
         null,
         null,
+        1,
+        null,
+        1,
         1,
         null
       ],
@@ -405,8 +407,14 @@
         null,
         null,
         null
+      ],
+      "/Users/nicoleglasgow/ticketee/app/models/asset.rb": [
+        1,
+        1,
+        1,
+        null
       ]
     },
-    "timestamp": 1375733953
+    "timestamp": 1375745018
   }
 }
