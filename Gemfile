@@ -10,8 +10,6 @@ gem 'paperclip', '2.7.0'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
-
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -31,7 +29,14 @@ group :test, :development do
 	gem 'rspec-rails', '~> 2.11'
   gem 'launchy'
   gem 'coffee-rails-source-maps'
+  gem 'sqlite3'
 end
+
+group :production do
+  gem 'pg'
+end
+
+
 
 group :test do
 	gem 'capybara', '~>1.1.2'
@@ -39,6 +44,7 @@ group :test do
   gem 'email_spec', '1.2.1'
   gem 'simplecov', :require => false, :group => :test
   gem 'database_cleaner', '0.7.2'
+  gem 'capybara-webkit'
 end
 
 # To use ActiveModel has_secure_password
